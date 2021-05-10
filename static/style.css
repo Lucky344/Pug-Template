@@ -1,0 +1,73 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    background: url('/static/alert.jpg') no-repeat center center;
+    z-index: -1;
+    opacity: 0.7;
+
+
+}
+
+nav{
+    background-color: rgba(127, 255, 212, 0.829);
+    padding: 12px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style: none;
+    padding: 3px 15px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container{
+    /* background: url('.alert.jpg') center center no-repeat cover; */
+    margin: 12px auto;
+    max-width: 70%; 
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+input, textarea{
+    display: block;
+    padding: 3px;
+    margin: 15px auto;
+    width: 60%;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.btn{
+    margin: 4px auto;
+    display: block;
+    padding: 5px 12px;
+    background: #302d2d;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    outline: none;
+}
