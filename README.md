@@ -1,3 +1,3 @@
-# Pug-Template
+# Pug-Template with backend.
 
-Pug-template rendered with express framework.
+Pug-template rendered with node.js.
